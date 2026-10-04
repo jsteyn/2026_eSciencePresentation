@@ -1,0 +1,147 @@
+\mode<presentation>
+% Define Carpentries colours
+\definecolor{carpblue}{HTML}{001483}
+\definecolor{carpred}{HTML}{D55E00}
+\definecolor{carplightgreen}{HTML}{40AEAD}
+
+% Requirements
+\RequirePackage{tikz}
+
+% Use Mulish font (requires XeLaTeX or LuaLaTeX)
+\usepackage{fontspec}
+\usepackage{caption}
+%\usepackage{pgfpages}
+%\setbeameroption{show notes}
+%\setbeameroption{show notes on second screen=right}
+
+\setsansfont{Mulish}
+\setmainfont{Mulish}
+\setmonofont{Mulish}
+\usefonttheme[onlysmall]{structurebold} % not sure what this means
+
+% Beamer defaults
+% Reduce space above frametitles, center them, make them bold Mulish
+\setbeamertemplate{frametitle}{%
+	\vspace{0.1em}% move up (adjust as needed)
+	\centering\insertframetitle\par
+}
+
+% Set font sizes
+\setbeamerfont{normal text}{size=\large} % bigger body text
+\setbeamerfont{frametitle}{size=\large\sffamily\bfseries} % bigger, bold titles
+
+% Colour for text
+\setbeamercolor{normal text}{fg=carpblue}
+
+% Navigation symbols
+%\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{navigation symbols}{
+	\usebeamerfont{footline}
+	\usebeamercolor[fg]{footline}
+	\hspace{1em}
+	\insertframenumber/\inserttotalframenumber
+
+}
+
+% Tikz package
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+
+% Background image
+\usebackgroundtemplate{%
+	\includegraphics[width=\paperwidth,height=\paperheight]{images/DefaultSlide_red.png}
+}
+
+%%%%%%%%%%%%%%%%%% Title Page %%%%%%%%%%%%%%%%%%%
+% Title
+\newcommand{\myTitle}{My RSE Journey}
+
+% Subtitle
+\newcommand{\mySubTitle}{I kind of did it my way ...}
+
+% Author
+\newcommand{\myAuthor}{Jannetta Steyn, Newcastle University, UK}
+
+% Affiliation
+\newcommand{\myAffiliate}{
+	}
+
+% Presentation Date
+\newcommand{\myDate}{September 09, 2026}
+
+% Logo
+\newcommand{\myLogo}{
+	% Logo here
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Robust Carpentries red block
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{carpblockred}[1][]%
+{%
+	\par\vspace{1ex}%
+		\centering
+		\begin{tikzpicture}
+			\node[
+			align=left,
+			draw=carpred,
+			very thick,
+			rounded corners=4pt,
+			left color=carpred!50,
+			right color=carpred!5,
+			shading angle=60,
+			inner sep=6pt,
+			text width=0.9\linewidth
+			] (box) \bgroup
+			\begin{minipage}{0.85\linewidth}
+				\ifx\relax#1\relax
+				\else
+				{\bfseries #1}\\[-2ex]%
+				\fi
+			}%
+			{%
+			\end{minipage}
+			\egroup;
+		\end{tikzpicture}%
+
+	\vspace{1ex}\par
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Robust Carpentries red block
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{carpblockgreen}[1][]%
+{%
+	\par\vspace{1ex}%
+		\centering
+	
+		\begin{tikzpicture}
+			\node[
+			align=left,
+			draw=carplightgreen,
+			very thick,
+			rounded corners=4pt,
+			left color=carplightgreen!50,
+			right color=carplightgreen!5,
+			shading angle=60,
+			inner sep=6pt,
+			text width=0.9\linewidth
+			] (box) \bgroup
+			\begin{minipage}{0.85\linewidth}
+				\ifx\relax#1\relax
+				\else
+				{\bfseries #1}\\[-2.0ex]%
+				\fi
+			}%
+			{%
+			\end{minipage}
+			\egroup;
+		\end{tikzpicture}%
+	\vspace{1ex}\par
+}
+
+
+% Settings
+\mode<all>

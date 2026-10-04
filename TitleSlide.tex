@@ -1,0 +1,57 @@
+{	% Background Image
+\usebackgroundtemplate{
+	\includegraphics[width=\paperwidth]{images/TitleSlideBackground_red.png}
+}
+\begin{frame}
+
+	
+
+	
+	%%%%%%%%%% Title slide code %%%%%%%%%%%
+	\begin{tikzpicture}[remember picture,overlay]
+	
+		
+		% Title & Subtitle
+		\node
+		[
+		    above=-0.7cm,
+		    align=center,
+		    draw=carpblue,
+		    left color=carpblue!50,
+		    right color=carpblue!5,
+		    shading angle=60,
+		    double,
+		    double distance=0.1cm,
+		    inner xsep=15pt,
+		    inner ysep=10pt, 
+		    minimum width=0.7\textwidth,
+		    text width=0.6\textwidth
+		] (title) at (current page.center)
+		{
+		    \LARGE \myTitle  \\[5pt]
+		    \small \mySubTitle
+		};
+		
+		% Author 
+		\node[ below=0.5cm] (author) at (title.south){\myAuthor};
+		
+		% Author 
+		\node[ below=0.25cm] (affiliate) at (author.south){\small \myAffiliate};
+		
+		% Date
+		\node[below=0.25cm] (date) at (affiliate.south){\large \myDate};
+		
+		% Logo
+		\node
+		[
+		    below right =0.25cm and 0.5cm
+		] at (current page.north west)
+		{
+		    \myLogo
+		};
+	
+	\end{tikzpicture}
+	
+
+\end{frame}
+}
