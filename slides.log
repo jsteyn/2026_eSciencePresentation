@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.8.9)  23 SEP 2026 22:18
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.9.8)  8 OCT 2026 11:30
  restricted system commands enabled.
 **slides.tex
 (./slides.tex
@@ -870,13 +870,17 @@ Package caption Info: Hyperref support is turned off
 )
 luaotfload | cache : Lookup cache loaded from /home/jannetta/.texlive2023/texmf-
 var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
-luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+
+Package fontspec Info: Could not resolve font "Mulish/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "Mulish/B" (it probably doesn't
+(fontspec)             exist).
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: Font family 'Mulish(0)' created for font 'Mulish' with
@@ -888,26 +892,22 @@ Package fontspec Info: Font family 'Mulish(0)' created for font 'Mulish' with
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"Mulish:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Mulish/B:mode=node;script=latn;language=dflt;+tlig;"
-
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"Mulish/I:mode=node;script=latn;language=dflt;+tlig;"
 
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Mulish/BI:mode=node;script=latn;language=dflt;+tlig;
-"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+
+Package fontspec Info: Could not resolve font "Mulish/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "Mulish/B" (it probably doesn't
+(fontspec)             exist).
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: Font family 'Mulish(1)' created for font 'Mulish' with
@@ -926,25 +926,9 @@ Space].
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Mulish/B:mode=node;script=latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"Mulish/I:mode=node;script=latn;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Mulish/BI:mode=node;script=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
@@ -1179,139 +1163,319 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/Mulish(1)/b/n --> TU/Mulish(1)/b/n on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./slides.nav) (./TitleSlide.tex
+ (./slides.nav)
+
+LaTeX Font Warning: Font shape `TU/Mulish(0)/b/n' undefined
+(Font)              using `TU/Mulish(0)/m/n' instead on input line 7.
+
+(./TitleSlide.tex
 <images/TitleSlideBackground_red.png, id=15, 1092.33093pt x 614.295pt>
 File: images/TitleSlideBackground_red.png Graphic file (type png)
 <use images/TitleSlideBackground_red.png>
 Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
-e 56.
+e 64.
 (luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-<./images/TitleSlideBackground_red.png>])
-(./Overview.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+<./images/TitleSlideBackground_red.png>]) (./Overview.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/DefaultSlide_red.png, id=25, 1092.33093pt x 614.295pt>
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 19.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
+<images/RiverJourney.png, id=24, 1541.76pt x 1027.84pt>
+File: images/RiverJourney.png Graphic file (type png)
+<use images/RiverJourney.png>
+Package luatex.def Info: images/RiverJourney.png  used on input line 45.
+(luatex.def)             Requested size: 179.25114pt x 119.493pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 45.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [2
 
-<./images/DefaultSlide_red.png>]) (./S2.tex
-<images/dr_greg_wilson.jpg, id=33, 213.6783pt x 147.4308pt>
-File: images/dr_greg_wilson.jpg Graphic file (type jpg)
-<use images/dr_greg_wilson.jpg>
-Package luatex.def Info: images/dr_greg_wilson.jpg  used on input line 23.
-(luatex.def)             Requested size: 179.25114pt x 123.67905pt.
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 23.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
+<./images/RiverJourney.png>]) (./S2.tex
+<images/blank.png, id=31, 605.26125pt x 509.905pt>
+File: images/blank.png Graphic file (type png)
+<use images/blank.png>
+Package luatex.def Info: images/blank.png  used on input line 27.
+(luatex.def)             Requested size: 59.75139pt x 50.33214pt.
+<images/PUKHoofgebou.jpg, id=32, 1027.84pt x 403.5075pt>
+File: images/PUKHoofgebou.jpg Graphic file (type jpg)
+<use images/PUKHoofgebou.jpg>
+Package luatex.def Info: images/PUKHoofgebou.jpg  used on input line 27.
+(luatex.def)             Requested size: 199.1693pt x 78.188pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 27.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [3
 
-<./images/dr_greg_wilson.jpg>]) (./S4.tex
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 8.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
+<./images/blank.png><./images/PukHoofgebou.jpg>])
+(./S3.tex
+<images/apple2+.jpeg, id=39, 605.26125pt x 509.905pt>
+File: images/apple2+.jpeg Graphic file (type jpg)
+<use images/apple2+.jpeg>
+Package luatex.def Info: images/apple2+.jpeg  used on input line 25.
+(luatex.def)             Requested size: 59.75139pt x 50.33214pt.
+File: images/PUKHoofgebou.jpg Graphic file (type jpg)
+<use images/PUKHoofgebou.jpg>
+Package luatex.def Info: images/PUKHoofgebou.jpg  used on input line 25.
+(luatex.def)             Requested size: 199.1693pt x 78.188pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 25.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [4
 
-])
-(./S5.tex
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 8.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
- [5
+<./images/apple2+.jpeg>]) (./S4.tex
+<images/IntelligenceCollege.jpg, id=45, 606.265pt x 488.82625pt>
+File: images/IntelligenceCollege.jpg Graphic file (type jpg)
+<use images/IntelligenceCollege.jpg>
+Package luatex.def Info: images/IntelligenceCollege.jpg  used on input line 6.
+(luatex.def)             Requested size: 199.1693pt x 160.58965pt.
 
-]) (./S6.tex
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 9.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
+Overfull \vbox (5.51485pt too high) detected at line 6
+ []
+
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 6.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+[5
+
+<./images/IntelligenceCollege.jpg>]) (./S5.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 4.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [6
 
-]) (./S7.tex
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 8.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
+]) (./S6.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 13.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [7
 
+]) (./S7.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 15.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+
+[8
+
 ]) (./S8.tex
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 14.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
- [8
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 17.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [9
 
-]) (./miniVersion.tex
-<images/mini-HPC-proto3.png, id=67, 1875.005pt x 2002.48125pt>
-File: images/mini-HPC-proto3.png Graphic file (type png)
-<use images/mini-HPC-proto3.png>
-Package luatex.def Info: images/mini-HPC-proto3.png  used on input line 29.
-(luatex.def)             Requested size: 79.66649pt x 85.06613pt.
-<images/mini-HPC-proto3_back.png, id=68, 1806.75pt x 1862.96pt>
-File: images/mini-HPC-proto3_back.png Graphic file (type png)
-<use images/mini-HPC-proto3_back.png>
-Package luatex.def Info: images/mini-HPC-proto3_back.png  used on input line 29
-.
-(luatex.def)             Requested size: 79.66649pt x 82.124pt.
-<images/logo.png, id=69, 401.5pt x 401.5pt>
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package luatex.def Info: images/logo.png  used on input line 29.
-(luatex.def)             Requested size: 39.83324pt x 39.82765pt.
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 29.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
-
-[9
-
-<./images/mini-HPC-proto3.png><./images/mini-HPC-proto3_back.png><./images/logo.
-png>]) (./CommsChannels.tex
-<images/hpc-carpentry.png, id=76, 371.3875pt x 371.3875pt>
-File: images/hpc-carpentry.png Graphic file (type png)
-<use images/hpc-carpentry.png>
-Package luatex.def Info: images/hpc-carpentry.png  used on input line 25.
-(luatex.def)             Requested size: 99.58464pt x 99.5846pt.
-<images/carpentriesoffline.png, id=77, 371.3875pt x 371.3875pt>
-File: images/carpentriesoffline.png Graphic file (type png)
-<use images/carpentriesoffline.png>
-Package luatex.def Info: images/carpentriesoffline.png  used on input line 25.
-(luatex.def)             Requested size: 99.58464pt x 99.5846pt.
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 25.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
+]) (./S9.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 11.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [10
 
-<./images/hpc-carpentry.png><./images/carpentriesoffline.png>]) (./HelpNeeded.t
-ex
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 32.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
+]) (./S10.tex
+<images/Interlotto.jpg, id=76, 602.25pt x 514.92375pt>
+File: images/Interlotto.jpg Graphic file (type jpg)
+<use images/Interlotto.jpg>
+Package luatex.def Info: images/Interlotto.jpg  used on input line 6.
+(luatex.def)             Requested size: 199.1693pt x 170.28679pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 6.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [11
 
-]) (./Resources.tex
-File: images/DefaultSlide_red.png Graphic file (type png)
-<use images/DefaultSlide_red.png>
-Package luatex.def Info: images/DefaultSlide_red.png  used on input line 8.
-(luatex.def)             Requested size: 455.24232pt x 256.07121pt.
+<./images/Interlotto.jpg>])
+(./S11.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 14.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
  [12
+
+]) (./S12.tex
+<images/motorbike1.jpg, id=88, 501.875pt x 376.40625pt>
+File: images/motorbike1.jpg Graphic file (type jpg)
+<use images/motorbike1.jpg>
+Package luatex.def Info: images/motorbike1.jpg  used on input line 33.
+(luatex.def)             Requested size: 99.58464pt x 74.68832pt.
+<images/motorbike2.jpg, id=89, 1638.12pt x 1228.59pt>
+File: images/motorbike2.jpg Graphic file (type jpg)
+<use images/motorbike2.jpg>
+Package luatex.def Info: images/motorbike2.jpg  used on input line 33.
+(luatex.def)             Requested size: 99.58464pt x 74.68704pt.
+<images/motorbike3.jpg, id=90, 963.6pt x 542.025pt>
+File: images/motorbike3.jpg Graphic file (type jpg)
+<use images/motorbike3.jpg>
+Package luatex.def Info: images/motorbike3.jpg  used on input line 33.
+(luatex.def)             Requested size: 99.58464pt x 56.00867pt.
+<images/freezing.jpg, id=91, 454.69875pt x 606.265pt>
+File: images/freezing.jpg Graphic file (type jpg)
+<use images/freezing.jpg>
+Package luatex.def Info: images/freezing.jpg  used on input line 33.
+(luatex.def)             Requested size: 99.58464pt x 132.7774pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 33.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [13
+
+<./images/motorbike1.jpg><./images/motorbike2.jpg><./images/motorbike3.jpg><./im
+ages/freezing.jpg>]) (./S13.tex
+<images/ncl.jpg, id=97, 577.15625pt x 167.62625pt>
+File: images/ncl.jpg Graphic file (type jpg)
+<use images/ncl.jpg>
+Package luatex.def Info: images/ncl.jpg  used on input line 25.
+(luatex.def)             Requested size: 199.1693pt x 57.84645pt.
+<images/iGEM.png, id=98, 127.81084pt x 87.32625pt>
+File: images/iGEM.png Graphic file (type png)
+<use images/iGEM.png>
+Package luatex.def Info: images/iGEM.png  used on input line 25.
+(luatex.def)             Requested size: 199.1693pt x 136.09514pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 25.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [14
+
+<./images/ncl.jpg><./images/iGEM.png>]) (./S14.tex
+<images/Slide4.jpg, id=105, 963.6pt x 542.025pt>
+File: images/Slide4.jpg Graphic file (type jpg)
+<use images/Slide4.jpg>
+Package luatex.def Info: images/Slide4.jpg  used on input line 11.
+(luatex.def)             Requested size: 278.83578pt x 156.84412pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 11.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [15
+
+<./images/Slide4.jpg>]) (./S15.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 12.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+
+[16
+
+]) (./S16.tex
+<images/carpentries-hex-blue.png, id=116, 124.96687pt x 144.54pt>
+File: images/carpentries-hex-blue.png Graphic file (type png)
+<use images/carpentries-hex-blue.png>
+Package luatex.def Info: images/carpentries-hex-blue.png  used on input line 17
+.
+(luatex.def)             Requested size: 39.83629pt x 46.07509pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 17.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [17
+
+<./images/carpentries-hex-blue.png>]) (./S17.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 13.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [18
+
+])
+(./S18.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 14.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [19
+
+]) (./S19.tex
+<images/logo.png, id=133, 401.5pt x 401.5pt>
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package luatex.def Info: images/logo.png  used on input line 16.
+(luatex.def)             Requested size: 79.66649pt x 79.66756pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 16.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [20
+
+<./images/logo.png>]) (./miniVersion.tex
+<images/mini-HPC-proto3.png, id=140, 1875.005pt x 2002.48125pt>
+File: images/mini-HPC-proto3.png Graphic file (type png)
+<use images/mini-HPC-proto3.png>
+Package luatex.def Info: images/mini-HPC-proto3.png  used on input line 31.
+(luatex.def)             Requested size: 79.66649pt x 85.06613pt.
+<images/mini-HPC-proto3_back.png, id=141, 1806.75pt x 1862.96pt>
+File: images/mini-HPC-proto3_back.png Graphic file (type png)
+<use images/mini-HPC-proto3_back.png>
+Package luatex.def Info: images/mini-HPC-proto3_back.png  used on input line 31
+.
+(luatex.def)             Requested size: 79.66649pt x 82.124pt.
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package luatex.def Info: images/logo.png  used on input line 31.
+(luatex.def)             Requested size: 39.83324pt x 39.82765pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 31.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+
+[21
+
+<./images/mini-HPC-proto3.png><./images/mini-HPC-proto3_back.png>])
+(./S20.tex
+<images/Slide1.JPG, id=148, 963.6pt x 542.025pt>
+File: images/Slide1.JPG Graphic file (type jpg)
+<use images/Slide1.JPG>
+Package luatex.def Info: images/Slide1.JPG  used on input line 8.
+(luatex.def)             Requested size: 318.67209pt x 179.24924pt.
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 8.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [22
+
+<./images/Slide1.jpg>]) (./Resources.tex
+File: images/TitleSlideBackground_red.png Graphic file (type png)
+<use images/TitleSlideBackground_red.png>
+Package luatex.def Info: images/TitleSlideBackground_red.png  used on input lin
+e 14.
+(luatex.def)             Requested size: 455.24408pt x 256.01498pt.
+ [23
 
 ])
 \tf@nav=\write6
@@ -1328,28 +1492,35 @@ Package luatex.def Info: images/DefaultSlide_red.png  used on input line 8.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1 ({)
+### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 29158 strings out of 476553
+ 29433 strings out of 476553
  100000,1977958 words of node,token memory allocated
- 3179 words of node memory still in use:
-   32 hlist, 7 vlist, 2 rule, 1 disc, 4 local_par, 12 math, 91 glue, 15 kern, 36
- penalty, 150 glyph, 74 attribute, 61 glue_spec, 74 attribute_list, 4 write, 3 p
-df_start_link, 3 pdf_end_link, 3 pdf_action, 22 pdf_colorstack nodes
-   avail lists: 2:449,3:345,4:182,5:283,6:34,7:1500,8:49,9:378,10:15,11:101
- 50189 multiletter control sequences out of 65536+600000
- 76 fonts using 7774167 bytes
- 128i,11n,116p,827b,935s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/jannetta/.local/share/fonts/Mulish-ExtraLight.ttf></home/jannetta/.local/
-share/fonts/Mulish-SemiBold.ttf></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msam10.pfb>
-Output written on slides.pdf (12 pages, 5871615 bytes).
+ 8135 words of node memory still in use:
+   67 hlist, 8 vlist, 2 rule, 5 disc, 10 local_par, 36 math, 250 glue, 33 kern, 
+94 penalty, 499 glyph, 160 attribute, 61 glue_spec, 160 attribute_list, 4 write,
+ 9 pdf_start_link, 9 pdf_end_link, 9 pdf_action, 50 pdf_colorstack nodes
+   avail lists: 2:285,3:281,4:164,5:330,6:22,7:1740,8:61,9:336,10:19,11:97
+ 50312 multiletter control sequences out of 65536+600000
+ 67 fonts using 6247951 bytes
+ 128i,11n,116p,828b,956s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/jannetta/.local/share/fonts/Mulish/Mulish-VariableFont_wght.ttf></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on slides.pdf (23 pages, 8699952 bytes).
 
-PDF statistics: 120 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 131072)
- 36 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 186 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 131072)
+ 26 words of extra memory for PDF output out of 10000 (max. 100000000)
 

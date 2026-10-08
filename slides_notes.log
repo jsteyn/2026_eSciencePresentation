@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.8.9)  1 SEP 2026 16:22
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.9.8)  8 OCT 2026 11:30
  restricted system commands enabled.
 **slides_notes.tex
 (./slides_notes.tex
@@ -870,13 +870,17 @@ Package caption Info: Hyperref support is turned off
 )
 luaotfload | cache : Lookup cache loaded from /home/jannetta/.texlive2023/texmf-
 var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
-luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+
+Package fontspec Info: Could not resolve font "Mulish/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "Mulish/B" (it probably doesn't
+(fontspec)             exist).
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: Font family 'Mulish(0)' created for font 'Mulish' with
@@ -888,26 +892,22 @@ Package fontspec Info: Font family 'Mulish(0)' created for font 'Mulish' with
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"Mulish:mode=node;script=latn;language=dflt;+tlig;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Mulish/B:mode=node;script=latn;language=dflt;+tlig;"
-
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"Mulish/I:mode=node;script=latn;language=dflt;+tlig;"
 
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Mulish/BI:mode=node;script=latn;language=dflt;+tlig;
-"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-luaotfload | aux : font no 24 (nil) does not define feature smcp for script latn
+
+Package fontspec Info: Could not resolve font "Mulish/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "Mulish/B" (it probably doesn't
+(fontspec)             exist).
+
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
  with language dflt
-luaotfload | aux : font no 25 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
- with language dflt
-luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+luaotfload | aux : font no 23 (nil) does not define feature smcp for script latn
  with language dflt
 
 Package fontspec Info: Font family 'Mulish(1)' created for font 'Mulish' with
@@ -926,25 +926,9 @@ Space].
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Mulish/B:mode=node;script=latn;language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"Mulish/I:mode=node;script=latn;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Mulish/BI:mode=node;script=latn;language=dflt;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
@@ -961,31 +945,31 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 No auxiliary output files.
 
 No file slides_notes.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
 .
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1044,51 +1028,51 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \providecommand\hyper@newdestlabel[2]{}
-Package hyperref Info: Link coloring OFF on input line 6.
+Package hyperref Info: Link coloring OFF on input line 7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 6.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 6.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Mulish(0)/m/n on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 6.
+(Font)                  OT1/cmss/m/n --> TU/Mulish(0)/m/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Mulish(0)/b/n on input line 6.
+(Font)                  OT1/cmr/bx/n --> TU/Mulish(0)/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Mulish(0)/b/n on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 6.
+(Font)                  OT1/cmr/bx/n --> TU/Mulish(0)/b/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Mulish(0)/m/n on input line 6.
+(Font)                  OT1/cmss/m/n --> TU/Mulish(0)/m/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Mulish(0)/m/n on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 6.
+(Font)                  OT1/cmss/bx/n --> TU/Mulish(0)/m/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Mulish(0)/m/it on input line 6.
+(Font)                  OT1/cmr/m/it --> TU/Mulish(0)/m/it on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Mulish(0)/m/it on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 6.
+(Font)                  OT1/cmr/bx/it --> TU/Mulish(0)/m/it on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Mulish(1)/m/n on input line 6.
+(Font)                  OT1/cmtt/m/n --> TU/Mulish(1)/m/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Mulish(1)/m/n on input line 6.
+(Font)                  OT1/cmtt/m/n --> TU/Mulish(1)/m/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/b/n on input line 6.
+(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/b/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/Mulish(0)/m/it --> TU/Mulish(0)/b/it on input line 6
+(Font)                  TU/Mulish(0)/m/it --> TU/Mulish(0)/b/it on input line 7
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/Mulish(0)/b/n on input line 6.
+(Font)                  OT1/cmss/b/n --> TU/Mulish(0)/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/Mulish(0)/b/n --> TU/Mulish(0)/b/n on input line 6.
+(Font)                  TU/Mulish(0)/b/n --> TU/Mulish(0)/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/b/n on input line 6.
+(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/Mulish(0)/m/it --> TU/Mulish(0)/b/it on input line 6
+(Font)                  TU/Mulish(0)/m/it --> TU/Mulish(0)/b/it on input line 7
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/Mulish(1)/m/n --> TU/Mulish(1)/b/n on input line 6.
+(Font)                  TU/Mulish(1)/m/n --> TU/Mulish(1)/b/n on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1120,94 +1104,153 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 6.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 6.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 6.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 6.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 6.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 6.
-LaTeX Font Info:    Redeclaring math accent \check on input line 6.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 6.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 6.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 6.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 7.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 7.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 7.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 7.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 7.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 7.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 7.
+LaTeX Font Info:    Redeclaring math accent \check on input line 7.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 7.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 7.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 7.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 7.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 7.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 6.
+(Font)              `operators' in the math version `normal' on input line 7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Mulish(0)/m/n on input line 6.
+(Font)                  OT1/cmss/m/n --> TU/Mulish(0)/m/n on input line 7.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 6.
+(Font)              `operators' in the math version `bold' on input line 7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/Mulish(0)/m/n on input line 6.
+(Font)                  OT1/cmss/b/n --> TU/Mulish(0)/m/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/m/n on input line 6.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 6.
+(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/m/n on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/Mulish(0)/m/it --> TU/Mulish(0)/m/it on input line 6
+(Font)                  TU/Mulish(0)/m/it --> TU/Mulish(0)/m/it on input line 7
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/Mulish(0)/b/n --> TU/Mulish(0)/b/n on input line 6.
+(Font)                  TU/Mulish(0)/b/n --> TU/Mulish(0)/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/m/n on input line 6.
+(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/m/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/Mulish(1)/m/n --> TU/Mulish(1)/m/n on input line 6.
+(Font)                  TU/Mulish(1)/m/n --> TU/Mulish(1)/m/n on input line 7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/b/n on input line 6.
+(Font)                  TU/Mulish(0)/m/n --> TU/Mulish(0)/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/Mulish(0)/b/it --> TU/Mulish(0)/b/it on input line 6
+(Font)                  TU/Mulish(0)/b/it --> TU/Mulish(0)/b/it on input line 7
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/Mulish(0)/b/n --> TU/Mulish(0)/b/n on input line 6.
+(Font)                  TU/Mulish(0)/b/n --> TU/Mulish(0)/b/n on input line 7.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/Mulish(1)/b/n --> TU/Mulish(1)/b/n on input line 6.
+(Font)                  TU/Mulish(1)/b/n --> TU/Mulish(1)/b/n on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 No file slides_notes.nav.
-(./TitleSlide.tex) (./S1.tex [1
+
+LaTeX Font Warning: Font shape `TU/Mulish(0)/b/n' undefined
+(Font)              using `TU/Mulish(0)/m/n' instead on input line 7.
+
+(./TitleSlide.tex [1
 
 
 
 
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./S2.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(./Overview.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<images/dr_greg_wilson.jpg, id=25, 213.6783pt x 147.4308pt>
-File: images/dr_greg_wilson.jpg Graphic file (type jpg)
-<use images/dr_greg_wilson.jpg>
-Package luatex.def Info: images/dr_greg_wilson.jpg  used on input line 23.
-(luatex.def)             Requested size: 179.25114pt x 123.67905pt.
+<images/RiverJourney.png, id=24, 1541.76pt x 1027.84pt>
+File: images/RiverJourney.png Graphic file (type png)
+<use images/RiverJourney.png>
+Package luatex.def Info: images/RiverJourney.png  used on input line 45.
+(luatex.def)             Requested size: 179.25114pt x 119.493pt.
  [2
 
 
 
 
-<./images/dr_greg_wilson.jpg>]) (./S4.tex) (./S5.tex) (./S6.tex) (./S7.tex [3
+<./images/RiverJourney.png>]) (./S2.tex
+<images/blank.png, id=33, 605.26125pt x 509.905pt>
+File: images/blank.png Graphic file (type png)
+<use images/blank.png>
+Package luatex.def Info: images/blank.png  used on input line 27.
+(luatex.def)             Requested size: 59.75139pt x 50.33214pt.
+<images/PUKHoofgebou.jpg, id=34, 1027.84pt x 403.5075pt>
+File: images/PUKHoofgebou.jpg Graphic file (type jpg)
+<use images/PUKHoofgebou.jpg>
+Package luatex.def Info: images/PUKHoofgebou.jpg  used on input line 27.
+(luatex.def)             Requested size: 199.1693pt x 78.188pt.
+ [3
+
+
+
+
+<./images/blank.png><./images/PukHoofgebou.jpg>])
+(./S3.tex
+<images/apple2+.jpeg, id=43, 605.26125pt x 509.905pt>
+File: images/apple2+.jpeg Graphic file (type jpg)
+<use images/apple2+.jpeg>
+Package luatex.def Info: images/apple2+.jpeg  used on input line 25.
+(luatex.def)             Requested size: 59.75139pt x 50.33214pt.
+File: images/PUKHoofgebou.jpg Graphic file (type jpg)
+<use images/PUKHoofgebou.jpg>
+Package luatex.def Info: images/PUKHoofgebou.jpg  used on input line 25.
+(luatex.def)             Requested size: 199.1693pt x 78.188pt.
+ [4
+
+
+
+
+<./images/apple2+.jpeg>]) (./S4.tex
+<images/IntelligenceCollege.jpg, id=51, 606.265pt x 488.82625pt>
+File: images/IntelligenceCollege.jpg Graphic file (type jpg)
+<use images/IntelligenceCollege.jpg>
+Package luatex.def Info: images/IntelligenceCollege.jpg  used on input line 6.
+(luatex.def)             Requested size: 199.1693pt x 160.58965pt.
+
+Overfull \vbox (5.51485pt too high) detected at line 6
+ []
+
+[5
+
+
+
+
+<./images/IntelligenceCollege.jpg>]) (./S5.tex [6
+
+
+
+
+]) (./S6.tex [7
+
+
+
+
+]) (./S7.tex) (./S8.tex [8
 
 
 
@@ -1215,81 +1258,148 @@ Package luatex.def Info: images/dr_greg_wilson.jpg  used on input line 23.
 
 
 
+]) (./S9.tex) (./S10.tex
+<images/Interlotto.jpg, id=80, 602.25pt x 514.92375pt>
+File: images/Interlotto.jpg Graphic file (type jpg)
+<use images/Interlotto.jpg>
+Package luatex.def Info: images/Interlotto.jpg  used on input line 6.
+(luatex.def)             Requested size: 199.1693pt x 170.28679pt.
+ [9
 
 
 
 
 
 
-]) (./S8.tex)
-(./miniVersion.tex
-<images/mini-HPC-proto3.png, id=43, 1875.005pt x 2002.48125pt>
-File: images/mini-HPC-proto3.png Graphic file (type png)
-<use images/mini-HPC-proto3.png>
-Package luatex.def Info: images/mini-HPC-proto3.png  used on input line 29.
-(luatex.def)             Requested size: 79.66649pt x 85.06613pt.
-<images/mini-HPC-proto3_back.png, id=44, 1806.75pt x 1862.96pt>
-File: images/mini-HPC-proto3_back.png Graphic file (type png)
-<use images/mini-HPC-proto3_back.png>
-Package luatex.def Info: images/mini-HPC-proto3_back.png  used on input line 29
+
+<./images/Interlotto.jpg>]) (./S11.tex) (./S12.tex
+<images/motorbike1.jpg, id=88, 501.875pt x 376.40625pt>
+File: images/motorbike1.jpg Graphic file (type jpg)
+<use images/motorbike1.jpg>
+Package luatex.def Info: images/motorbike1.jpg  used on input line 33.
+(luatex.def)             Requested size: 99.58464pt x 74.68832pt.
+<images/motorbike2.jpg, id=89, 1638.12pt x 1228.59pt>
+File: images/motorbike2.jpg Graphic file (type jpg)
+<use images/motorbike2.jpg>
+Package luatex.def Info: images/motorbike2.jpg  used on input line 33.
+(luatex.def)             Requested size: 99.58464pt x 74.68704pt.
+<images/motorbike3.jpg, id=90, 963.6pt x 542.025pt>
+File: images/motorbike3.jpg Graphic file (type jpg)
+<use images/motorbike3.jpg>
+Package luatex.def Info: images/motorbike3.jpg  used on input line 33.
+(luatex.def)             Requested size: 99.58464pt x 56.00867pt.
+<images/freezing.jpg, id=91, 454.69875pt x 606.265pt>
+File: images/freezing.jpg Graphic file (type jpg)
+<use images/freezing.jpg>
+Package luatex.def Info: images/freezing.jpg  used on input line 33.
+(luatex.def)             Requested size: 99.58464pt x 132.7774pt.
+ [10
+
+
+
+
+
+
+
+<./images/motorbike1.jpg><./images/motorbike2.jpg><./images/motorbike3.jpg><./im
+ages/freezing.jpg>]) (./S13.tex
+<images/ncl.jpg, id=99, 577.15625pt x 167.62625pt>
+File: images/ncl.jpg Graphic file (type jpg)
+<use images/ncl.jpg>
+Package luatex.def Info: images/ncl.jpg  used on input line 25.
+(luatex.def)             Requested size: 199.1693pt x 57.84645pt.
+<images/iGEM.png, id=100, 127.81084pt x 87.32625pt>
+File: images/iGEM.png Graphic file (type png)
+<use images/iGEM.png>
+Package luatex.def Info: images/iGEM.png  used on input line 25.
+(luatex.def)             Requested size: 199.1693pt x 136.09514pt.
+) (./S14.tex
+<images/Slide4.jpg, id=101, 963.6pt x 542.025pt>
+File: images/Slide4.jpg Graphic file (type jpg)
+<use images/Slide4.jpg>
+Package luatex.def Info: images/Slide4.jpg  used on input line 11.
+(luatex.def)             Requested size: 278.83578pt x 156.84412pt.
+ [11
+
+
+
+
+
+
+
+<./images/Slide4.jpg>]) (./S15.tex [12
+
+
+
+
+]) (./S16.tex
+<images/carpentries-hex-blue.png, id=117, 124.96687pt x 144.54pt>
+File: images/carpentries-hex-blue.png Graphic file (type png)
+<use images/carpentries-hex-blue.png>
+Package luatex.def Info: images/carpentries-hex-blue.png  used on input line 17
 .
-(luatex.def)             Requested size: 79.66649pt x 82.124pt.
-<images/logo.png, id=45, 401.5pt x 401.5pt>
+(luatex.def)             Requested size: 39.83629pt x 46.07509pt.
+) (./S17.tex) (./S18.tex) (./S19.tex
+<images/logo.png, id=118, 401.5pt x 401.5pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package luatex.def Info: images/logo.png  used on input line 29.
+Package luatex.def Info: images/logo.png  used on input line 16.
+(luatex.def)             Requested size: 79.66649pt x 79.66756pt.
+)
+(./miniVersion.tex
+<images/mini-HPC-proto3.png, id=119, 1875.005pt x 2002.48125pt>
+File: images/mini-HPC-proto3.png Graphic file (type png)
+<use images/mini-HPC-proto3.png>
+Package luatex.def Info: images/mini-HPC-proto3.png  used on input line 31.
+(luatex.def)             Requested size: 79.66649pt x 85.06613pt.
+<images/mini-HPC-proto3_back.png, id=120, 1806.75pt x 1862.96pt>
+File: images/mini-HPC-proto3_back.png Graphic file (type png)
+<use images/mini-HPC-proto3_back.png>
+Package luatex.def Info: images/mini-HPC-proto3_back.png  used on input line 31
+.
+(luatex.def)             Requested size: 79.66649pt x 82.124pt.
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package luatex.def Info: images/logo.png  used on input line 31.
 (luatex.def)             Requested size: 39.83324pt x 39.82765pt.
-) (./CommsChannels.tex
-<images/hpc-carpentry.png, id=46, 371.3875pt x 371.3875pt>
-File: images/hpc-carpentry.png Graphic file (type png)
-<use images/hpc-carpentry.png>
-Package luatex.def Info: images/hpc-carpentry.png  used on input line 25.
-(luatex.def)             Requested size: 99.58464pt x 99.5846pt.
-<images/carpentriesoffline.png, id=47, 371.3875pt x 371.3875pt>
-File: images/carpentriesoffline.png Graphic file (type png)
-<use images/carpentriesoffline.png>
-Package luatex.def Info: images/carpentriesoffline.png  used on input line 25.
-(luatex.def)             Requested size: 99.58464pt x 99.5846pt.
-) (./HelpNeeded.tex [4
-
-
-
-
-
-
-
-
-
-
-
-
-
-])
-(./Resources.tex)
+) (./S20.tex
+<images/Slide1.JPG, id=121, 963.6pt x 542.025pt>
+File: images/Slide1.JPG Graphic file (type jpg)
+<use images/Slide1.JPG>
+Package luatex.def Info: images/Slide1.JPG  used on input line 8.
+(luatex.def)             Requested size: 318.67209pt x 179.24924pt.
+) (./Resources.tex)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1 ({)
+### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 28993 strings out of 476553
+ 29215 strings out of 476553
  100000,1977958 words of node,token memory allocated
- 6631 words of node memory still in use:
-   49 hlist, 8 vlist, 2 rule, 14 disc, 7 local_par, 22 math, 186 glue, 66 kern, 
-58 penalty, 403 glyph, 124 attribute, 62 glue_spec, 124 attribute_list, 7 write,
- 5 pdf_start_link, 5 pdf_end_link, 5 pdf_action, 35 pdf_colorstack nodes
-   avail lists: 2:355,3:279,4:177,5:431,6:33,7:2536,8:49,9:288,10:16,11:155
- 50111 multiletter control sequences out of 65536+600000
- 75 fonts using 7604559 bytes
- 128i,9n,116p,833b,934s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/jannetta/.local/share/fonts/Mulish-ExtraLight.ttf></home/jannetta/.local/
-share/fonts/Mulish-SemiBold.ttf></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msam10.pfb>
-Output written on slides_notes.pdf (4 pages, 106418 bytes).
+ 8239 words of node memory still in use:
+   67 hlist, 8 vlist, 2 rule, 5 disc, 10 local_par, 36 math, 250 glue, 33 kern, 
+94 penalty, 499 glyph, 168 attribute, 62 glue_spec, 168 attribute_list, 25 write
+, 9 pdf_start_link, 9 pdf_end_link, 9 pdf_action, 51 pdf_colorstack nodes
+   avail lists: 2:271,3:365,4:105,5:501,6:25,7:2579,8:61,9:347,10:24,11:129
+ 50220 multiletter control sequences out of 65536+600000
+ 67 fonts using 6247631 bytes
+ 128i,9n,116p,835b,959s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/jannetta/.local/share/fonts/Mulish/Mulish-VariableFont_wght.ttf></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on slides_notes.pdf (12 pages, 2657539 bytes).
 
-PDF statistics: 81 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 131072)
- 36 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 145 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 131072)
+ 26 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,0 +1,21 @@
+\documentclass[aspectratio=169,usenames,dvipsnames,10pt]{beamer}
+\usetheme{HPC}
+%\setbeameroption{show only notes}
+
+
+
+\begin{document}
+\input{TitleSlide}  	% TitleSlide
+\input{Overview}		% Overview
+\input{S2}				% South Africa
+%	\input{S3}				% Where does HPC Carpentries fit?
+\input{S4}				% Current Status Curriculum
+\input{S5}				% Current Status Lesson Support
+\input{S6}				% Current Status South 
+\input{S7}				% Current Status Lesson Program Adoption
+\input{S8}				% CarpentriesOffline
+\input{miniVersion}		% miniHPC
+\input{CommsChannels}	% Commns Channels
+\input{HelpNeeded} 		% Help Needed
+\input{Resources}		% Resources
+\end{document}
